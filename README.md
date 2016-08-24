@@ -9,11 +9,9 @@ The goal of this project is to recognize a song that is playing and display its 
 * begin implementing sound mechanism
 
 ##build
-Build using 'make'
-or
-Build debug (gdb ready) 'make debug'
-or 
-Build and run 'make run'
+* Build using 'make'
+* Build debug version (gdb ready) 'make debug'
+* Build and run 'make run'
 
 ##run
 Run using './lyrics'
