@@ -18,4 +18,5 @@ Build and run 'make run'
 ##run
 Run using './lyrics'
 
-
+###notes
+* running on a Macbook Pro 15" running OS X El Capitan (10.11.4)
