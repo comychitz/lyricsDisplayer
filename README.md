@@ -8,8 +8,9 @@ Simple makefile
 * make debug
 * make clean
 
-Note: My machine is a Macbook Pro 10,1 (Intel i7) using:
+Note: My machine is a Macbook Pro 10,1 (Intel i7)
 * Apple LLVM version 8.0.0 (clang-800.0.42.1)
+* Dependency: ncurses 
 
 ## Run
 Run using './lyrics'
