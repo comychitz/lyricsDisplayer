@@ -21,4 +21,5 @@ Controls:
 ## Notes
 * There will be a directory created '/etc/lyrics', where you can place lyric files to show on the screen. The name of the files must follow the format "Artist Name-Song Name.txt". Contents are the lyrics, line-separated. It will be centered when put on the screen.
 * When running debug mode, the lyrics file directory is /tmp/lyrics/
+* The format of the lyrics file is simple plain text files with no indentation or formatting (it is centered when placed on the screen). Feel free to adjust line lengths as it isn't smart enough to self-adjust long lines (yet).
 
