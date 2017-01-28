@@ -20,4 +20,4 @@ compile_debug:
 	$(CC) $(CFLAGS) $(LFLAGS) $(CLASS_FILES) main.cpp -o $(DEBUG_BIN_NAME) -DDEBUG
 
 clean:
-	rm -f lyrics
+	-rm -f lyrics lyrics_debug

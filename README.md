@@ -1,20 +1,24 @@
-# lyricsDisplayer
-The goal of this project is to recognize a song that is playing and display its lyrics on your current terminal window.
+# lyrics_displayer
+A program that shows your favorite lyrics in a nice and neat format on your terminal window.
 
-##current status
-* developed main window that displays a text file of lyrics.
+## Build
+Simple makefile
+* make 
+* make run
+* make debug
+* make clean
 
-##next steps
-* implemenet scrolling mechanism if the lyrics don't fit on screen 
-* begin implementing sound mechanism
+Note: My machine is a Macbook Pro 10,1 (Intel i7) using:
+* Apple LLVM version 8.0.0 (clang-800.0.42.1)
 
-##build
-* Build using 'make'
-* Build debug version (gdb ready) 'make debug'
-* Build and run 'make run'
-
-##run
+## Run
 Run using './lyrics'
+Controls:
+* press the m key to go to the menu screen
+* use the up/down arrow keys or j/k to select in menu (hit enter once selected)
+* press q to quit
 
-###notes
-* OS X El Capitan (10.11.4) on Intel Core i7 (Macbook Pro 10,1)
+## Notes
+* There will be a directory created '/etc/lyrics', where you can place lyric files to show on the screen. The name of the files must follow the format "Artist Name-Song Name.txt". Contents are the lyrics, line-separated. It will be centered when put on the screen.
+* When running debug mode, the lyrics file directory is /tmp/lyrics/
+
