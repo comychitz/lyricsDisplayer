@@ -17,4 +17,4 @@ The goal of this project is to recognize a song that is playing and display its 
 Run using './lyrics'
 
 ###notes
-* running on a Macbook Pro 15" running OS X El Capitan (10.11.4)
+* OS X El Capitan (10.11.4) on Intel Core i7 (Macbook Pro 10,1)
